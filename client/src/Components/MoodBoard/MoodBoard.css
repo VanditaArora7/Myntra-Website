@@ -1,0 +1,20 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: lavender;
+    width: 100%;
+}
+
+.first-section{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 800;
+
+}
+/* .second-section{
+   height: 60vh;
+} */
+.second-section img{
+    height: 100%;
+}

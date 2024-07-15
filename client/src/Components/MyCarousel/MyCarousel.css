@@ -1,0 +1,31 @@
+/* carouselStyles.css */
+
+/* General carousel text styling */
+.carousel{
+    width: 100%;
+}
+.carousel-caption h3, 
+.carousel-caption p {
+    color: black;
+}
+
+/* Arrow button styling */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%);
+}
+
+/* Optional: Add some padding to the carousel items */
+.carousel-item {
+    padding: 20px;
+}
+
+/* Optional: Style the carousel indicators */
+.carousel-indicators li {
+    background-color: black;
+}
+
+/* Optional: Add a border to the carousel items */
+/* .carousel-item img {
+    border: 2px solid black;
+} */

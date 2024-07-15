@@ -1,0 +1,23 @@
+.second-row{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 15px;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    transition: transform 0.3s ease-in-out;
+}
+.second-row-number{
+    font-size: 30px;
+    font-weight: 800;
+}
+.second-row-image img{
+    width: 150px;
+    height: 200px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px #888888;
+}
+.second-row:hover{
+     transform: scale(1.1);
+}
